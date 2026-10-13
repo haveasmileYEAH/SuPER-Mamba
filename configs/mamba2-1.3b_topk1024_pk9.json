@@ -1,0 +1,12 @@
+{
+    "remap_type": "topk",
+    "remap_kwargs": {
+        "vis_window": 32,
+        "attn_topk": 1024,
+        "pooling": "mean",
+        "pooling_kernel": 18,
+        "supress_all": false
+    },
+    "global_channel_indexes": "./remapping_configs/precomputed_tensors/mamba2-1.3b_global_channel_indexes.pth",
+    "per_channel_decays": "./remapping_configs/precomputed_tensors/mamba2-1.3b_per_channel_decays.pth"
+}

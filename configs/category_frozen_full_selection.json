@@ -1,0 +1,135 @@
+{
+  "selection_rule": "Frozen LongBench-E category-level Dev50 selection; one shared configuration per task category",
+  "datasets": {
+    "qasper": [
+      {
+        "index": 14,
+        "topk": 1024,
+        "pooling_kernel": 18,
+        "pooling": "max",
+        "baseline": false,
+        "dev50_score": 4.47
+      }
+    ],
+    "multifieldqa_en": [
+      {
+        "index": 14,
+        "topk": 1024,
+        "pooling_kernel": 18,
+        "pooling": "max",
+        "baseline": false,
+        "dev50_score": 14.606666666666667
+      }
+    ],
+    "hotpotqa": [
+      {
+        "index": 902,
+        "topk": 1024,
+        "pooling_kernel": 10,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 6.86
+      }
+    ],
+    "2wikimqa": [
+      {
+        "index": 903,
+        "topk": 1024,
+        "pooling_kernel": 10,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 10.23
+      }
+    ],
+    "gov_report": [
+      {
+        "index": 5,
+        "topk": 2048,
+        "pooling_kernel": 18,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 12.976666666666667
+      }
+    ],
+    "multi_news": [
+      {
+        "index": 5,
+        "topk": 2048,
+        "pooling_kernel": 18,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 16.133333333333333
+      }
+    ],
+    "trec": [
+      {
+        "index": 14,
+        "topk": 1024,
+        "pooling_kernel": 18,
+        "pooling": "max",
+        "baseline": false,
+        "dev50_score": 48.28666666666667
+      }
+    ],
+    "triviaqa": [
+      {
+        "index": 907,
+        "topk": 1024,
+        "pooling_kernel": 18,
+        "pooling": "max",
+        "baseline": false,
+        "dev50_score": 46.68
+      }
+    ],
+    "samsum": [
+      {
+        "index": 908,
+        "topk": 1024,
+        "pooling_kernel": 18,
+        "pooling": "max",
+        "baseline": false,
+        "dev50_score": 26.81
+      }
+    ],
+    "passage_count": [
+      {
+        "index": 0,
+        "topk": 256,
+        "pooling_kernel": 18,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 5.329999999999999
+      }
+    ],
+    "passage_retrieval_en": [
+      {
+        "index": 0,
+        "topk": 256,
+        "pooling_kernel": 18,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 5.41
+      }
+    ],
+    "lcc": [
+      {
+        "index": 11,
+        "topk": 1024,
+        "pooling_kernel": 12,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 49.68666666666667
+      }
+    ],
+    "repobench-p": [
+      {
+        "index": 912,
+        "topk": 1024,
+        "pooling_kernel": 12,
+        "pooling": "mean",
+        "baseline": false,
+        "dev50_score": 43.74
+      }
+    ]
+  }
+}
