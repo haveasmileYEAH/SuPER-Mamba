@@ -1,6 +1,6 @@
 # SuPER-Mamba
 
-**SuPER-Mamba: Surprisal-guided Position Evaluation and Routing for Mamba**
+**SuPER-Mamba: Surprisal Prioritization for Extended-Context Routing in Mamba**
 
 SuPER-Mamba is a training-free approach for improving the long-context capabilities of pretrained Mamba models. It leverages the model's own predictive feedback to identify informative context positions and selectively control long-range state updates through Surprisal-guided Routing, without requiring additional training.
 
